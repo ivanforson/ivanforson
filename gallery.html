@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Montserrat font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!--swiper Style-->
+    <link
+    rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- START OF NAVIGATOR SECTION -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo">
+                <img src="./images/Logo-black.png" alt="Nav Logo">
+            </a>
+            <ul class="nav__links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./exhibition.html">Exhibition</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+            <ul class="nav__social">
+                <li><a href="https://instagram.com/ivanforson" target="_blank">
+                        <i class="uil uil-instagram-alt"></i>
+                    </a></li>
+            </ul>
+            <button class="nav__toggle-btn" id="nav__toggle-open"><i class="uil uil-bars"></i></button>
+            <button class="nav__toggle-btn" id="nav__toggle-close"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- END OF NAV BAR -->
+
+    <!-- START OF GALLERY SECTION -->
+    <section id="gallery">
+        <div class="container gallery__container swiper mySwiper">
+            <div class="gallery__head">
+                <h2 class="gallery__title">My Gallery</h2>
+                <div class="empty gallery__empty"></div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Iure tempore exercitationem molestias iusto quibusdam doloribus possimus officiis,
+                corrupti fugit excepturi. Repellendus quae nisi quidem harum?
+            </p>
+            <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                    <img src="./images/SJP-111.jpg" alt="Gallery Image 1">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./images/SJP-106.jpg" alt="Gallery Image 2">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./images/SJP-178.jpg" alt="Gallery Image 3">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./images/SJP-216.jpg" alt="Gallery Image 4">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./images/SJP-218.jpg" alt="Gallery Image 5">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./images/SJP-116.jpg" alt="Gallery Image 6">
+                </article>
+                <article class="swiper-slide">
+                    <img src="./images/SJP-150.jpg" alt="Gallery Image 7">
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- END OF GALLERY SECTION -->
+    
+    <!-- END OF EXHIBITION SECTION --> 
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__head">
+                <h3 class="footer__title">ivanforson@gmail.com</h3>
+                <a href="mailto:ivanforson@gmail.com" class="footer__btn">
+                    <i class="uil uil-arrow-up-right"></i>
+                </a>
+            </div>
+            <ul class="footer__links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./exhibition.html">Exhibition</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- END OF FOOTER SECTION -->
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="./home.js"></script>
+</body>
+</html>
